@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Shop"
+        />
+
+    <RelativeLayout
+        android:id="@+id/electronicsLayout"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/electronics" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ELECTRONICS"
+            android:layout_centerInParent="true"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/clothingLayout"
+
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/clothing" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLOTHING"
+            android:layout_centerInParent="true"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/makeupLayout"
+
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/makeup" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAKEUP"
+            android:layout_centerInParent="true"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/smartphoneLayout"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/smartphone" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SMARTPHONES"
+            android:layout_centerInParent="true"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
